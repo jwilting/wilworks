@@ -10,7 +10,7 @@ def bp(m, h, L):
 
     return x    
 
-N = 1000
+N = 10000
 L = 10000
 x = np.empty((N, L + 2))
 for t in range(N):

@@ -10,7 +10,7 @@ for t in range(N):
     m = np.random.uniform()
     h = np.random.uniform()
     n = np.random.uniform()
-
+    print m, h, n
     x[t,0] = m
     x[t, 1] = h
     x[t, 2] = n

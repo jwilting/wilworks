@@ -119,9 +119,9 @@ print("Test set accuracy: {:.3%}".format(test_accuracy.result()))
 class_ids = ["Iris setosa", "Iris versicolor", "Iris virginica"]
 
 predict_dataset = tf.convert_to_tensor([
-    [5.1, 3.3, 1.7],
-    [5.9, 3.0, 4.2,],
-    [6.9, 3.1, 5.4]
+    [.51, .3, .7],
+    [.9, .01, .2,],
+    [.9, .1, .4]
 ])
 
 predictions = model(predict_dataset)
